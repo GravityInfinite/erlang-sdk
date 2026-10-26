@@ -1,0 +1,17 @@
+{application, analytics,
+ [{description, "An OTP application"},
+  {vsn, "1.0.0"},
+  {registered, []},
+  {mod, {analytics_app, []}},
+  {applications,
+   [kernel,
+    stdlib,
+    jsone,
+    lager
+   ]},
+  {env,[]},
+  {modules, []},
+
+  {licenses, ["Apache-2.0"]},
+  {links, []}
+ ]}.

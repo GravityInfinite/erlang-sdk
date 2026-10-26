@@ -1,0 +1,3 @@
+rebar3 compile
+
+example_debug_batch_consumer:test_v1().

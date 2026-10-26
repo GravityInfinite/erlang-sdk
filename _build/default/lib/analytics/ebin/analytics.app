@@ -1,0 +1,11 @@
+{application,analytics,
+             [{description,"An OTP application"},
+              {vsn,"1.0.0"},
+              {registered,[]},
+              {mod,{analytics_app,[]}},
+              {applications,[kernel,stdlib,jsone,lager]},
+              {env,[]},
+              {modules,[analytics,analytics_app,analytics_sup,debug_consumer,
+                        example_debug_batch_consumer]},
+              {licenses,["Apache-2.0"]},
+              {links,[]}]}.
