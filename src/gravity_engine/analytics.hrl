@@ -1,5 +1,6 @@
 -record(debug_consumer, {
-  server_url = ""
+  server_url = "",
+  callback = undefined  %% global error callback, invoked when report failed: fun(Error, ClientId)
 }).
 
 -record(analytics, {
